@@ -37,11 +37,9 @@ export default function Table() {
     // dùng lable kiểm tra để sort
 
     const handleSort = (field, toggle) => {
-        console.log(toggle)
+        //console.log(toggle)
         let a = toggle ? 1 : -1
-
         let _data = dataS.sort((u1, u2) => u1[field].localeCompare(u2[field]) * a)
-
         setData([..._data])
     }
     // updateBooks([...books, { name: 'A new Book', id: '...'}]);
