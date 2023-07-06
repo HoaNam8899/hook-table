@@ -12,10 +12,7 @@ export default function Table() {
         { lable: 'birthday', field: 'birthday' },
         { lable: 'phone', field: 'phone' }
 
-
-
     ]
-    const [isCheck, setIsCheck] = useState(false)
     const [dataS, setData] = useState([
         { id: '1', name: 'C', address: '12', birthday: '20/2/1990', phone: '1234567890' },
         { id: '2', name: 'D', address: '123', birthday: '7/9/2000', phone: '1998899898' },
